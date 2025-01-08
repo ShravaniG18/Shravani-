@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shravani G | Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHq6Rx4UhtPbOIBm+AOWt3Uy1QGfRZXHkzVH/0PlFTuZWjhzDkSM74OoNk8zG5jhH3FhoUag=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #101820;
+        color: #fff;
+      }
+
+      /* Navbar */
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1e1e2f;
+        padding: 15px 20px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+      nav .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #f05454;
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav ul li {
+        margin-left: 20px;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1rem;
+        transition: color 0.3s;
+      }
+
+      nav ul li a:hover {
+        color: #f05454;
+      }
+
+      /* Header */
+      header {
+        text-align: center;
+        padding: 50px 20px;
+        background-color: #1e1e2f;
+      }
+
+      header .profile-pic {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: #f05454;
+        margin: 20px auto 20px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+      }
+
+      header .profile-pic img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      header h1 {
+        font-size: 3rem;
+        margin: 0;
+      }
+
+      header h2 {
+        font-size: 1.5rem;
+        color: #f05454;
+        margin: 10px 0;
+      }
+
+      .cta-buttons .btn {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 20px;
+        background-color: #f05454;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+
+      .cta-buttons .btn:hover {
+        background-color: #ff6767;
+      }
+
+      /* Sections */
+      section {
+        padding: 40px 20px;
+        margin: 20px auto;
+        max-width: 800px;
+      }
+
+      section h2 {
+        font-size: 2rem;
+        color: #f05454;
+        margin-bottom: 20px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+      }
+
+      table th,
+      table td {
+        border: 1px solid #fff;
+        padding: 10px;
+        text-align: left;
+      }
+
+      table th {
+        background-color: #1e1e2f;
+        color: #f05454;
+      }
+
+      table tr:nth-child(even) {
+        background-color: #1e1e2f;
+      }
+
+      table tr:hover {
+        background-color: #2a2a3b;
+      }
+
+      /* Footer */
+      footer {
+        background-color: #292929;
+        padding: 20px;
+        color: #fff;
+      }
+
+      footer h2 {
+        color: #f05454;
+      }
+
+      footer form {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      footer form input,
+      footer form button {
+        margin: 10px 0;
+        padding: 10px;
+        font-size: 1rem;
+      }
+
+      footer form input {
+        border: 1px solid #f05454;
+        border-radius: 5px;
+        background-color: #1e1e2f;
+        color: #fff;
+      }
+
+      footer form button {
+        background-color: #f05454;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      footer form button:hover {
+        background-color: #ff6767;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="logo">Shravani G</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skill Sets</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="home">
+      <div class="profile-pic">
+        <img
+          src="C:\Users\shrav\HTML\resume\asstes\img\shrav.jpg"
+          alt="Your Profile Picture"
+        />
+      </div>
+      <h1>SHRAVANI G</h1>
+      <h2>Software Engineer</h2>
+      <div class="cta-buttons">
+        <a href="mailto:Shravanig18@gmail.com" class="btn">G-mail</a>
+        <a href="https://www.linkedin.com/in/shravanig08" class="btn"
+          >LinkedIn</a
+        >
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        A passionate and solution-oriented Computer Science Engineer with a
+        strong academic foundation and hands-on experience in project
+        development, leadership, and technical training. Equipped with excellent
+        management skills and a sharp logical reasoning ability, I am eager to
+        apply my expertise in programming, analytical thinking, and innovative
+        problem-solving to contribute to meaningful projects. Seeking an
+        opportunity in a forward-thinking organization where I can collaborate
+        with a dynamic team, drive impactful solutions, and enhance both
+        business outcomes and user satisfaction. Ready to tackle new challenges,
+        learn, and deliver exceptional results.
+      </p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Education</h2>
+      <table>
+        <tr>
+          <th>Course</th>
+          <th>Institution</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>B.E. Computer Science and Engineering</td>
+          <td>Malnad College of Engineering, Hassan</td>
+          <td>2026</td>
+        </tr>
+        <tr>
+          <td>12th</td>
+          <td>Master's PU College, Hassan</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td>10th</td>
+          <td>Kendriya Vidyalaya, Hassan</td>
+          <td>2020</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Skill Sets Section -->
+    <section id="skills">
+      <h2>Skill Sets</h2>
+      <table>
+        <tr>
+          <th>Category</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td>Operating Systems</td>
+          <td>Windows, Linux</td>
+        </tr>
+        <tr>
+          <td>Programming Languages</td>
+          <td>C, C++, Python, HTML</td>
+        </tr>
+        <tr>
+          <td>Application Packages</td>
+          <td>MySQL</td>
+        </tr>
+        <tr>
+          <td>Tools</td>
+          <td>
+            PowerPoint, Canva, Photoshop, Excel, Jupyter, PyCharm, CAED, Visual
+            Studio, Figma, Microsoft Office, GitHub
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <table>
+        <tr>
+          <th>Title</th>
+          <th>Year</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td>Smart Areca Nut Plucking Machine</td>
+          <td>2024</td>
+          <td>
+            Developed a machine designed to efficiently and safely pluck areca
+            nuts, reducing manual labor and improving harvest productivity.
+          </td>
+        </tr>
+        <tr>
+          <td>River Cleaning Bot</td>
+          <td>2023</td>
+          <td>
+            Designed and developed a robotic system to automate river cleaning,
+            efficiently collecting waste and debris to help maintain cleaner
+            water bodies.
+          </td>
+        </tr>
+        <tr>
+          <td>Mini Windmill Power Generation Project</td>
+          <td>2023</td>
+          <td>
+            Created a small-scale windmill for generating renewable energy,
+            demonstrating the potential of wind power for sustainable
+            electricity production.
+          </td>
+        </tr>
+        <tr>
+          <td>Smart Education Using Animation</td>
+          <td>2024</td>
+          <td>
+            Developed an interactive educational platform that uses animation to
+            enhance learning experiences, making complex topics more engaging
+            and easier to understand for students.
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="tel" placeholder="Your Phone Number" required />
+        <button type="submit">Submit</button>
+      </form>
+    </footer>
+  </body>
+</html>
